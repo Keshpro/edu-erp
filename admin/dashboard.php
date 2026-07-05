@@ -17,7 +17,7 @@ require __DIR__ . '/../partials/navbar.php';
 
 <div class="page-header">
   <div>
-    <h1>Institutional Dashboard</h1>
+    <h1>Institutional Dashboard 01</h1>
     <p>Overview of key university metrics for the current Semester.</p>
   </div>
   <div class="actions">
