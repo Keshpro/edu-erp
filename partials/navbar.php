@@ -14,6 +14,11 @@ try {
 } catch (Exception $e) {}
 ?>
 <header class="navbar">
+  <!-- Mobile Toggle Button -->
+  <button class="mobile-nav-toggle" onclick="toggleSidebar()">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
   <div class="search">
     <i class="fa-solid fa-magnifying-glass"></i>
     <input type="text" placeholder="Search across systems...">
@@ -34,4 +39,15 @@ try {
     </div>
   </div>
 </header>
+
+<script>
+function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    if (sidebar.style.getPropertyValue('display') === 'block') {
+        sidebar.style.setProperty('display', 'none', 'important');
+    } else {
+        sidebar.style.setProperty('display', 'block', 'important');
+    }
+}
+</script>
 <div class="content">
