@@ -56,7 +56,7 @@ require __DIR__ . '/../partials/navbar.php';
 
 <div class="modal-card">
   <h2>Add New Student</h2>
-  <p class="sub">Enter the details to create a new student record.</p>
+  <p class="sub">Enter the details to create a New Student record.</p>
 
   <?php foreach ($errors as $e): ?>
     <div class="alert alert-danger"><?= htmlspecialchars($e) ?></div>
